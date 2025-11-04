@@ -26,20 +26,19 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 ### **Procedure**
 
 1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+  <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/8aefd084-9289-4ab5-a6cb-e2a9a87fa5d5" />
+
 
 2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+   ![WhatsApp Image 2025-10-29 at 07 53 46_3e34e272](https://github.com/user-attachments/assets/4e1c76c8-e712-4f89-83ab-985d4149d6ee)
+
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
-
-
+   ![WhatsApp Image 2025-10-29 at 07 54 04_c80005fb](https://github.com/user-attachments/assets/299a3cb6-5a81-4df3-bc86-886f5ada60ce)
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
-
+![WhatsApp Image 2025-11-04 at 18 15 08_6ee05bb1](https://github.com/user-attachments/assets/c4b741f7-8fc6-4b85-82aa-d97482b4f18d)
+  
 5. The corresponding `.ioc` file will be generated automatically.
   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
 
@@ -55,22 +54,21 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 <img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+    ![WhatsApp Image 2025-11-04 at 18 15 14_6fc37175](https://github.com/user-attachments/assets/2d14c3bd-eaae-46fb-933d-2069d259d684)
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+  ![WhatsApp Image 2025-11-04 at 18 15 33_a50e373b](https://github.com/user-attachments/assets/6773b1eb-75df-4988-9d56-1a2e80393678)
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+   ![WhatsApp Image 2025-11-04 at 18 16 18_5062efd9](https://github.com/user-attachments/assets/a4bc86b2-cb04-4664-841e-4317cee9e90e)
+
 
 13. Click **Run** to execute the program.
-    
----
+![WhatsApp Image 2025-11-04 at 18 16 18_7bf09efe](https://github.com/user-attachments/assets/e700eeab-2391-485c-a29c-345ad8e2cb8b)
+
 
 ### 💻 **Program**
-
-
-```c
+c
 #include "main.h"
 
 void SystemClock_Config(void);
@@ -101,9 +99,12 @@ int main(void)
 ```
 ---
 ### OUTPUT
-CASE 1: LED ON 
+CASE 1: LED ON
+![WhatsApp Image 2025-10-29 at 08 08 16_df2f557f](https://github.com/user-attachments/assets/247ab2f1-cc9f-4a82-aa10-9d6e5d9dfd57)
+
 
 CASE 2: LED OFF
+![WhatsApp Image 2025-10-29 at 08 08 17_c2a2a147](https://github.com/user-attachments/assets/405316c6-57b4-414a-b390-7a4b8005825f)
 
 ---
 ### RESULT
